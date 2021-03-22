@@ -52,6 +52,24 @@ var myApp = new Framework7({
     	name: 'carrusel',
   		},
 		
+		{
+		path: '/orden/',
+    	url: 'orden.html',
+    	name: 'orden',
+  		},
+		
+		{
+		path: '/about/',
+    	url: 'about.html',
+    	name: 'about',
+  		},
+		
+		{
+		path: '/confirm/',
+    	url: 'confirm-order.html',
+    	name: 'confirm',
+  		},
+		
 	]
 });
 
