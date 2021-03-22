@@ -1,0 +1,262 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 	
+<title>Art Brush</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">	
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+	
+	<div id="app">
+     
+      <section class="panel panel-left panel-cover">
+      	
+      	<div class="top-panel">
+      		Menú Lateral
+      	</div>
+      	
+      	<div class="list media-list">
+      		<ul>
+      			<li>
+      				<a href="/profile/" class="item-content item-link panel-close">
+      					<div class="item-media">
+      						<span class="material-icons">account_box</span>
+      					</div>
+      					<div class="item-inner">
+      						MY PROFILE
+      					</div>
+      				</a>
+      			</li>
+      			<li>
+      				<a href="#" class="item-content item-link">
+      					<div class="item-media">
+      						<span class="material-icons">publication</span>
+      					</div>
+      					<div class="item-inner">
+      						MY PUBLICATIONS
+      					</div>
+      				</a>
+      			</li>
+      			<li>
+      				<a href="#" class="item-content item-link">
+      					<div class="item-media">
+      						<span class="material-icons">saved</span>
+      					</div>
+      					<div class="item-inner">
+      						SAVED
+      					</div>
+      				</a>
+      			</li>
+      			<li>
+      				<a href="#" class="item-content item-link">
+      					<div class="item-media">
+      						<span class="material-icons">favorite</span>
+      					</div>
+      					<div class="item-inner">
+      						MY FAVORITES
+      					</div>
+      				</a>
+      			</li>
+      			<li>
+      				<a href="#" class="item-content item-link">
+      					<div class="item-media">
+      						<span class="material-icons">home</span>
+      					</div>
+      					<div class="item-inner">
+      						HOME
+      					</div>
+      				</a>
+      			</li>
+      			<li>
+      				<a href="#" class="item-content item-link">
+      					<div class="item-media">
+      						<span class="material-icons">insights</span>
+      					</div>
+      					<div class="item-inner">
+      						DIGITAL ART
+      					</div>
+      				</a>
+      			</li>
+				<li>
+      				<a href="#" class="item-content item-link">
+      					<div class="item-media">
+      						<span class="material-icons">mode</span>
+      					</div>
+      					<div class="item-inner">
+      						TRADITIONAL ART
+      					</div>
+      				</a>
+      			</li>
+				<li>
+      				<a href="#" class="item-content item-link">
+      					<div class="item-media">
+      						<span class="material-icons">architecture</span>
+      					</div>
+      					<div class="item-inner">
+      						ARCHITECTURE
+      					</div>
+      				</a>
+      			</li>
+				<li>
+      				<a href="/commission/" class="item-content item-link">
+      					<div class="item-media">
+      						<span class="material-icons">paid</span>
+      					</div>
+      					<div class="item-inner">
+      						COMISSIONS
+      					</div>
+      				</a>
+      			</li>
+				<li>
+      				<a href="#" class="item-content item-link">
+      					<div class="item-media">
+      						<span class="material-icons">settings</span>
+      					</div>
+      					<div class="item-inner">
+      						SETTINGS
+      					</div>
+      				</a>
+      			</li>
+				<li>
+      				<a href="#" class="item-content item-link">
+      					<div class="item-media">
+      						<span class="material-icons">groups</span>
+      					</div>
+      					<div class="item-inner">
+      						ABOUT US
+      					</div>
+      				</a>
+      			</li>
+      		</ul>
+      	</div>
+      	
+      	
+      </section>
+      
+
+      <div class="view view-main view-init">
+
+       
+       
+        <section data-name="profile" class="page">
+
+          <nav class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner">
+             	<div class="left">
+					<a href="index.html" class="link back"><span class="material-icons">chevron_left</span></a>
+             		<a href="#" class="link panel-open" data-panel=".panel-left"><span class="material-icons">menu</span></a>
+             	</div>
+              	<div class="title">ArtBrush</div>
+              	<div class="right">
+              		<a href="#" class="link"><span class="material-icons">search</span></a>
+              	</div>
+            </div>
+          </nav>
+			
+		  <div class="view view-main view-init">
+
+       
+       
+        <section data-name="profile" class="page">
+
+          <nav class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner">
+             	<div class="left">
+					<a href="index.html" class="link back"><span class="material-icons">chevron_left</span></a>
+             		<a href="#" class="link panel-open" data-panel=".panel-left"><span class="material-icons">menu</span></a>
+             	</div>
+              	<div class="title">ArtBrush</div>
+              	<div class="right">
+              		<a href="#" class="link"><span class="material-icons">search</span></a>
+              	</div>
+            </div>
+          </nav>
+			
+			
+			<section class="page-content backgroundb">
+          <label for="style">Style</label>
+		 <br>
+          <select name="style" id="style" class="coma">
+            <option value="select">Select a Style</option>
+            <option value="graphic">Graphic Desing</option>
+            <option value="brush">Brush Desing</option>
+          </select>
+		 
+		 <form action="#" method="GET">
+        <!--Add a required attribute to the input element-->
+        <label for="guess">Quantity</label>
+        <br>
+        <input type="number" name="guess" id="guess" required>
+      </form>
+		 
+		<article class="block">
+            	<div class="row">
+					<article class="col coma">
+						<a href="#">Add To Cart</a>
+					</article>
+					</div>
+		 </article>
+		 
+		 <select name="add" id="add">
+            <option value="highlights">Highlights</option>
+            <option value="highlights">Highlights</option>
+			<option value="highlights">Highlights</option>
+          </select>
+		 <select name="descrip" id="descrip">
+            <option value="descriptions">Description</option>
+            <option value="descriptions">Description</option>
+			<option value="descriptions">Description</option> 
+          </select>
+		 <select name="ship" id="ship">
+            <option value="shipping">Shipping and return policies</option>
+          </select>
+		 
+		 
+		 
+		 
+		 
+		 <article class="block">
+            	<div class="row">
+					<article class="col coma">
+						<a href="#">Send a message</a>
+					</article>
+					</div>
+		 </article>
+		 
+        </section>
+		
+
+				 
+				 
+		 
+            
+	</section> <!-- page -->
+        
+        
+			</div>
+		  </section>    
+      </div> <!-- view -->
+      
+    </div><!-- app -->
+
+  
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/my-app.js"></script>
+	
+	
+	
+</body>
+</html>
+
+	
+	
+
+			
